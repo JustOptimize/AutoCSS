@@ -89,7 +89,7 @@ BdApi.Webpack.getByKeys('sizeLarge').sizeLarge
 replugged.webpack.getByProps('sizeLarge').sizeLarge
 
 // Vencord
-findByPropsLazy('sizeLarge').sizeLarge
+Vencord.Webpack.findByPropsLazy('sizeLarge').sizeLarge
 ```
 
 How AutoCSS works is like this, you pass in some props and it works, but 
